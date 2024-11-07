@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+  
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image: url(ai-generated.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    padding: 170px;
+    text-align: center;
+    font-size: 40px;
+    color: lightblue;
+}
+#contato{
+    background-image: url(doctors.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    padding: 170px;
+    text-align: center;
+    font-size: 40px;
+    color: lightblue;
+}
+nav{
+    float: left;
+    width: 30%;
+    height: 300px; 
+    background: #ccc;
+    padding: 20px;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+  
+article{
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 300px; 
+}
+section::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer{
+    background-image: url(ai-generated2.jpg);
+    padding: 40px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    text-align: center;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+th{
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 12px;
+    text-align: left;
+}
+td{
+    padding: 12px;
+    text-align: left;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
